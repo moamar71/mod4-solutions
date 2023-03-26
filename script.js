@@ -8,12 +8,15 @@
   
       if (firstLetter.toLowerCase(names[i]) === 'j') {
           byeSpeaker.speak(names[i]);
+          
       } else {
         helloSpeaker.speak(names[i]);
       }
+      
   }
   
   window.names=names
+
 })(window);
 
 
